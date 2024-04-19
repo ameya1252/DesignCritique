@@ -19,4 +19,6 @@ The website includes various screenshots to illustrate points in the critique:
 - Spider Chart
 - Scatterplot
 
+### Notes
 
+Contact Info - deshmuau@mail.uc.edu, gaikwaot@mail.uc.edu
