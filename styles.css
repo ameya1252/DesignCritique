@@ -1,30 +1,73 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Updated for a more modern and readable typeface */
     margin: 0;
     padding: 0;
     background: #f4f4f4;
+    color: #333; /* Standardizing text color */
+    line-height: 1.6; /* Improved line spacing for better readability */
 }
 
 header, footer {
-    background: #004d99;
+    background: #0056b3; /* Slightly darker blue for a more professional look */
     color: white;
     text-align: center;
-    padding: 10px 20px;
+    padding: 20px 0; /* Increased padding for better visual separation */
+    font-size: 1.25em; /* Larger font size for header and footer */
 }
 
 main {
     padding: 20px;
-    margin: 10px;
+    margin: 10px auto; /* Centering the main content */
+    max-width: 1200px; /* Limiting width for better readability on large screens */
 }
 
 section {
     background: white;
     margin-bottom: 20px;
     padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    border-radius: 10px; /* Slightly larger radius for a smoother look */
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Enhanced shadow for a subtle 3D effect */
+    border-left: 5px solid #0073e6; /* Adding a left border for a touch of style */
 }
 
 h1, h2 {
-    color: #333;
+    color: #010b24; /* Ensuring consistency in header colors */
 }
+
+h1 {
+    margin-bottom: 0.5em; /* Reducing space below the main title for tighter layout */
+}
+
+h2 {
+    margin-top: 1em; /* Adding more space above section headers for clear section separation */
+    padding-bottom: 0.25em; /* Padding under headers to distinguish them from text */
+    border-bottom: 2px solid #eee; /* A subtle line under headers to define sections */
+}
+
+ul {
+    padding-left: 20px; /* Indentation for list items */
+    list-style-type: square; /* More distinctive bullet style */
+}
+
+li {
+    margin-bottom: 10px; /* Space between list items for clarity */
+}
+
+footer {
+    font-size: 0.9em; /* Slightly smaller font in footer */
+    opacity: 0.8; /* Slight transparency for a less prominent footer */
+}
+
+.screenshot-container {
+    margin-top: 20px; /* Adds space above the container */
+}
+
+.screenshot-container img {
+    width: 100%; /* Each image takes up the full container width */
+    height: auto; /* Keeps the image proportionate */
+    display: block; /* Ensures the image does not inline with other elements */
+    margin-bottom: 20px; /* Adds space between images */
+    border-radius: 5px; /* Optionally adds rounded corners */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15); /* Optionally adds shadow for visual depth */
+}
+
